@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import logo_NAME from "src/assets/Downie_Name_yellow.svg";
+import logo_NAME from "../assets/Downie_Name_yellow.svg";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
@@ -7,14 +7,14 @@ const Nav = () => {
     <nav>
       <div className="left">
         <li className="nav-links">
-          <Link className="links" to="/">
+          <Link className="links" to="/mdshadesbb/">
             <img src={logo_NAME} alt="logo" height="75px" />
           </Link>
         </li>
       </div>
       <div className="right">
         <li className="nav-links shopping">
-          <Link className="links" to="/shop">
+          <Link className="links" to="/mdshadesbb/shop">
             shop
           </Link>
         </li>

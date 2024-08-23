@@ -1,6 +1,6 @@
 import React from "react";
-import FooterForm from "src/components/subcomponents/FooterForm";
-import logo_MD from ".src/assets/MD_logo.svg";
+import FooterForm from "./subcomponents/FooterForm";
+import logo_MD from "../assets/MD_logo.svg";
 // import logo_NAME from "../assets/Downie_Name.svg";
 import { Link } from "react-router-dom";
 
@@ -28,20 +28,20 @@ const Footer = () => {
         </div>
         <div className="lets_help">
           <h3 className="footer_heading lets_help_heading">let's help</h3>
-          <Link className="help_links" to="/about">
+          <Link className="help_links" to="/mdshadesbb/about">
             about us
           </Link>
-          <Link className="help_links" to="/shop">
+          <Link className="help_links" to="/mdshadesbb/shop">
             see our options
           </Link>
-          <Link className="help_links" to="/contact-us">
+          <Link className="help_links" to="/mdshadesbb/contact-us">
             Contact Us
           </Link>
         </div>
       </div>
       <FooterForm />
       <div className="terms_and_faq">
-        <Link className="help_links" to="/terms">
+        <Link className="help_links" to="/mdshadesbb/terms">
           terms & conditions
         </Link>
       </div>
